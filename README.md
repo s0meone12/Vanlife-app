@@ -18,9 +18,6 @@ https://vanlife-app-ten.vercel.app/
 
 ![App Screenshot](img/reviews.png)
 
-![App Screenshot](img/signup.png)
-
-
 
 ## Features
 

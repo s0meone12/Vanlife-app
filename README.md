@@ -1,4 +1,4 @@
-Van Life App
+van life app
 Van Life App is a React-based application that allows users to explore various vans, view detailed information, check pricing, and read reviews. This project leverages modern web technologies to provide a seamless and engaging user experience.
 
 Features

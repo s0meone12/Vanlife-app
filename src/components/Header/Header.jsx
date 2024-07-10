@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, NavLink } from "react-router-dom";
 import  imageUrl from "/src/assets/avatar-icon.png"
+import logoutImage from "/src/assets/logout.png";
 import "./Header.css"
 
 function Header(){
@@ -19,7 +20,7 @@ function Header(){
             <NavLink className={({isActive})=> isActive ? "active-link" : ""} to='/about'>About</NavLink>
             <NavLink className={({isActive})=> isActive ? "active-link" : ""} to='/vans'>Vans</NavLink>
             <Link to='/login' className="login-link"><img src={imageUrl} className="login-icon"/></Link>
-            <button onClick={removeStorage}><img src={imageUrl} className="logout-icon"></img></button> 
+            <button onClick={removeStorage}><img src={logoutImage} className="logout-icon"></img></button> 
         </nav>
        
       </header>

@@ -20,7 +20,7 @@ function Header(){
             <NavLink className={({isActive})=> isActive ? "active-link" : ""} to='/about'>About</NavLink>
             <NavLink className={({isActive})=> isActive ? "active-link" : ""} to='/vans'>Vans</NavLink>
             <Link to='/login' className="login-link"><img src={imageUrl} className="login-icon"/></Link>
-            <button onClick={removeStorage}><img src={logoutImage} className="logout-icon"></img></button> 
+            <button onClick={removeStorage}><img src="/src/assets/logout.png" className="logout-icon"></img></button> 
         </nav>
        
       </header>

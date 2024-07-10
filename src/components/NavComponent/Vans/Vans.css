@@ -1,0 +1,112 @@
+.van-list-container{
+    padding-inline: 23px;
+}
+
+.van-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+
+
+.van-title{
+    height: 100%;
+    width:43vh;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+@media (min-width: 500px) {
+    .van-title{
+       height: auto;
+       width: auto;
+    }
+}
+
+
+.van-title a {
+    color: #161616;
+    text-decoration: none;
+}
+
+.van-title img{
+    display: flex;
+    max-width: 250px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.van-info{
+    padding-left: 10px;
+}
+
+.van-list-container button{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.van-type {
+    height: 34px;
+    padding: 6px 26px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFEAD0;
+    color: #4D4D4D;
+    transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
+.van-type.simple:hover, .van-type.simple.selected {
+    background-color: #E17654;
+    color: #FFEAD0;
+}
+
+.van-type.rugged:hover, .van-type.rugged.selected {
+    background-color: #115E59;
+    color: #FFEAD0;
+}
+
+.van-type.luxury:hover, .van-type.luxury.selected {
+    background-color: #161616;
+    color: #FFEAD0;
+}
+
+.van-type .clear-filters {
+    margin-left: -20px;
+    height: 34px;
+    padding: 6px 26px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    text-decoration: underline;
+    background-color: transparent;
+    color: #4D4D4D;
+}
+
+.van-list-filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+i[class*='van-type-'] {
+    padding: 7px 14px;
+}
+
+.van-type .selected {
+    color: #FFEAD0;
+}
+
+.van-list-container h1{
+    padding-left: 10px;
+}

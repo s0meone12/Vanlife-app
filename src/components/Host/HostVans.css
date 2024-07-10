@@ -1,0 +1,52 @@
+.host-van-link-wrapper {
+    color: unset;
+    text-decoration: unset;
+}
+
+.host-vans-list {
+    padding-inline: 26px;
+}
+
+.host-vans-title {
+    padding-inline: 26px;
+}
+
+.host-van-single {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 15px;
+    padding-block: 18px;
+    padding-left: 24px;
+}
+
+.host-van-single > img {
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 17px;
+}
+
+.host-van-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-block: 10px;
+}
+
+.host-van-info p {
+    margin-block: 10px;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid lightblue;
+    border-right-color: black;
+    animation: l2 1s infinite linear;
+  
+  }
+  @keyframes l2 {to{transform: rotate(1turn)}}

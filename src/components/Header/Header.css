@@ -1,0 +1,61 @@
+header {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding-block: 10px;
+  }
+  
+  header .site-logo{
+    color: black;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+
+  }
+  
+  
+  header a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-weight: 600;
+    padding: 5px 20px;
+  }
+  
+  header a:hover{
+    color: #161616;
+    text-decoration: underline;
+  }
+
+ a.active-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #161616;
+ }
+
+ header .login-link{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+
+ }
+
+ header .login-icon {
+    height: 18px;
+    width: 18px;
+}
+
+header nav{
+  display: flex;
+}
+
+header .logout-icon {
+  height: 16px;
+  width: 16px;
+
+}
+
+header button{
+  border: none;
+  padding-right: 10px;
+}

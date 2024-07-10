@@ -1,0 +1,57 @@
+/* RatingBoard.css */
+
+.rating-board {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .rating-overview {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .rating-overview h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .star {
+    font-size: 2rem;
+    color: #ff7300;
+    margin: 0 10px;
+  }
+  
+  .overall-rating {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .ratings .rating-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+  }
+  
+  .ratings .rating-row span {
+    font-size: 1rem;
+    color: #333;
+    width: 80px;
+  }
+  
+  .rating-bar {
+    flex-grow: 1;
+    height: 10px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 10px;
+  }
+  
+  .filled-bar {
+    height: 100%;
+    border-radius: 5px;
+  }
+  

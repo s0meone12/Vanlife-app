@@ -1,0 +1,32 @@
+.host-nav{
+    display: flex;
+}
+
+.host-nav a {
+    text-decoration: none;
+    color: #4D4D4D;
+    font-weight: 500;
+    padding: 5px 20px;
+}
+
+.host-nav a:hover {
+    color: #161616;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.site-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin-bottom: 84px;
+}
+
+a.active-styles{
+    font-weight: bold;
+    text-decoration: none;
+    color: #161616;
+}
